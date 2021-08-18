@@ -8,7 +8,7 @@ const persistSnaps        = require('./persistSnaps')
 const getTestName         = require('./getTestName')
 const getOptions          = require('./setup').getOptions
 
-const snapshotExtension     = '.mocha-snapshot'
+const snapshotExtension     = '.mocha-snapshot.js'
 const snapshotsFolder       = '__snapshots__'
 const shouldUpdateSnapshots = parseInt(process.env.UPDATE, 10) || process.argv.includes('--update')
 

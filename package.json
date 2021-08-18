@@ -1,6 +1,6 @@
 {
-  "name": "mocha-snapshots",
-  "version": "4.2.0",
+  "name": "@junglescoutofficial/mocha-snapshots",
+  "version": "0.0.1",
   "description": "Snapshot testing for Mocha users",
   "main": "./src/index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wellguimaraes/mocha-snapshots.git"
+    "url": "git+https://github.com/Junglescout/mocha-snapshots.git"
   },
   "keywords": [
     "mocha",
@@ -17,12 +17,12 @@
     "test",
     "testing"
   ],
-  "author": "Wellington Guimaraes <wellguimaraes@gmail.com>",
+  "author": "Wellington Guimaraes <wellguimaraes@gmail.com>, Mario Sevilla",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/wellguimaraes/mocha-snapshots/issues"
+    "url": "https://github.com/Junglescout/mocha-snapshots/issues"
   },
-  "homepage": "https://github.com/wellguimaraes/mocha-snapshots#readme",
+  "homepage": "https://github.com/Junglescout/mocha-snapshots#readme",
   "dependencies": {
     "colors": "^1.3.3",
     "diff": "^3.5.0",
