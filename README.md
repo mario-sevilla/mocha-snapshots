@@ -2,7 +2,7 @@
 Snapshot/regression testing for using with Mocha, specially for React+Enzyme users.
 
 ## Install it
-`npm i mocha-snapshots --save`
+`npm i @junglescoutofficial/mocha-snapshots --save-dev`
 
 ## Use it
 ```es6
@@ -33,12 +33,12 @@ describe('<MyComponent />', () => {
 ## Run your tests
 Add a require argument to your test script/command 
 
-`mocha --require mocha-snapshots`
+`mocha --require @junglescoutofficial/mocha-snapshots`
 
 ## Disable classNames cleanup
 To prevent false mismatches, mocha-snapshots sanitizes className props by default. You can disable this behavior before running your tests:
 ```js
-import mochaSnapshots from 'mocha-snapshots';
+import mochaSnapshots from '@junglescoutofficial/mocha-snapshots';
 
 mochaSnapshots.setup({ sanitizeClassNames: false })
 ```
@@ -47,9 +47,9 @@ mochaSnapshots.setup({ sanitizeClassNames: false })
 Set an environment variable `UPDATE` and run your test script or add the flag `--update`  when running Mocha:
 
 ```
-UPDATE=1 mocha --require mocha-snapshots
+UPDATE=1 mocha --require @junglescoutofficial/mocha-snapshots
 ``` 
 or
 ```
-mocha --require mocha-snapshots --update
+mocha --require @junglescoutofficial/mocha-snapshots --update
 ```
